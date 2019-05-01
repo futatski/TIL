@@ -2,6 +2,11 @@
 
 imageつくる → imageからコンテナ作成 → コンテナを動作させる(サービス起動)
 
+## 詰まったときのメモ
+
+* Permission関連でmysqlが上がらない
+とりあえずsharedriveが死んでる可能性があるので一旦無効→有効にしてみる
+
 ## dockerコマンド
 
 * docker ps 
