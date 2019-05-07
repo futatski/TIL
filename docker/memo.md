@@ -7,6 +7,11 @@ imageつくる → imageからコンテナ作成 → コンテナを動作させ
 * Permission関連でmysqlが上がらない
 とりあえずsharedriveが死んでる可能性があるので一旦無効→有効にしてみる
 
+* 「Invalid volume specification」でupできない
+docker toolboxの1.9から環境依存でパスの変換が行われないので
+環境変数を設定してwindowsパスに変換するように
+https://qiita.com/asami-H-Ishi/items/5a6bb2102b3a07cbab41
+
 ## dockerコマンド
 
 * docker ps 
